@@ -17,7 +17,6 @@ from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image 
 import matplotlib.pyplot as plt
 import os
-import deepl  # Replaced googletransx
 from fastapi import FastAPI, UploadFile, File  # Optional, kept for now
 import uvicorn  # Optional
 import threading  # Optional
